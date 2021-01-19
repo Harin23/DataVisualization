@@ -1,0 +1,27 @@
+body{
+    background-color: lightseagreen;
+}
+.cell:hover{
+    fill: black;
+}
+#title, #description{
+    text-align: center;
+}
+#SVG{
+    background-color: lightslategray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+#tooltip{
+    position: absolute;
+    background-color: mediumaquamarine;
+}
+#legend{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+}

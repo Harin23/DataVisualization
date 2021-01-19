@@ -1,0 +1,20 @@
+body{
+    background-color: steelblue;
+}
+.svg{
+    background-color: lightslategray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dot:hover{
+    fill: black;
+}
+#tooltip{
+    position: absolute;
+    background-color: lightskyblue;
+    height: 120px;
+    width: 190px;
+    opacity: 0;
+}

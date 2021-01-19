@@ -1,0 +1,27 @@
+body{
+    background-color: lightslategray;
+}
+#title, #description{
+    text-align: center;
+}
+#svg{
+    background-color: lightslategray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#tooltip{
+    background-color: lightskyblue;
+    position: absolute;
+    opacity: 0;
+    font-weight: bold;
+}
+.county:hover{
+    fill: black;
+}
+.states {
+    stroke: lightslategray;
+    fill: none;
+    stroke-width: 0.5%;
+  }
